@@ -96,35 +96,83 @@ Submission</a><o:p></o:p></span></p>
     on emerging languages and runtimes.</p>
 
     <div class="page-header">
-      <h1>Accepted Papers (Program Details Soon)</h1>
+      <h1>Program</h1>
     </div>
 
 <ul>
-   <li>
-     <i>Accelerating Smith-Waterman Alignment workload with Scalable Vector Computing</i>,
-     Dong-Hyeon Park, Jonathan Beaumont and Trevor Mudge
-  </li>
-  <li>
-    <i>Halide Vectorization for Android Photography Applications – a Case Study</i>,
-    Martin Johnson and Daniel Playne
-  </li>
-  <li>
-    <i>Preliminary Performance Evaluation of Application Kernel using ARM SVE with Multiple Vector Lengths</i>,
-    Yuetsu Kodama
-  </li>
-  <li>
-    <i>Vectorization-aware Loop Optimization with User-defined Code Transformations</i>,
-    Hiroyuki Takizawa, Thorsten Reimann, Kazuhiko Komatsu, Takashi Soga, Ryusuke Egawa, Akihiro Musa and Hiroaki Kobayashi
-  </li>
-  <li>
-    <i>Performance and Power Analysis of SX-ACE using HP-X Benchmark Programs</i>,
-    Ryusuke Egawa, Kazuhiko Komatsu, Yoko Isobe, Toshihiro Kato, Souya Fujimoto, Hiroyuki Takizawa, Akihiro Musa and Hiroaki Kobayashi
-  </li>
-  <li>
-    <i>Performance Evaluation of Quantum ESPRESSO on NEC SX-ACE</i>,
-    Osamu Watanabe, Akihiro Musa, Hiroaki Hokari, Shivanshu Singh, Raghunandan Mathur and Hiroaki Kobayashi
-  </li>
+   <li>09:00 - 09:30 Welcome Session & Introductions
+   <li>09:30 - 10:30 Keynote: <i>Finding Regularity in Problems with Irregularity (Hioshi Nakashima)</i>
+   <li>10:30 - 11:00 Coffee Break
+   <li>11:00 - 12:30 Session I (3 Papers)</li>
+   <ul>
+     <li>
+        <i>Accelerating Smith-Waterman Alignment workload with Scalable Vector Computing</i>,
+        Dong-Hyeon Park, Jonathan Beaumont and Trevor Mudge
+     </li>
+     <li>
+       <i>Halide Vectorization for Android Photography Applications – a Case Study</i>,
+       Martin Johnson and Daniel Playne
+     </li>
+     <li>
+       <i>Preliminary Performance Evaluation of Application Kernel using ARM SVE with Multiple Vector Lengths</i>,
+       Yuetsu Kodama
+     </li>
+  </ul>
+  <li>12:30 - 14:00 Lunch Break</li>
+  <li>14:00 - 15:30 Session II (3 Papers)</li>
+  <ul>
+    <li>
+      <i>Vectorization-aware Loop Optimization with User-defined Code Transformations</i>,
+      Hiroyuki Takizawa, Thorsten Reimann, Kazuhiko Komatsu, Takashi Soga, Ryusuke Egawa, Akihiro Musa and Hiroaki Kobayashi
+    </li>
+    <li>
+      <i>Performance and Power Analysis of SX-ACE using HP-X Benchmark Programs</i>,
+      Ryusuke Egawa, Kazuhiko Komatsu, Yoko Isobe, Toshihiro Kato, Souya Fujimoto, Hiroyuki Takizawa, Akihiro Musa and Hiroaki Kobayashi
+    </li>
+    <li>
+      <i>Performance Evaluation of Quantum ESPRESSO on NEC SX-ACE</i>,
+      Osamu Watanabe, Akihiro Musa, Hiroaki Hokari, Shivanshu Singh, Raghunandan Mathur and Hiroaki Kobayashi
+    </li>
+  </ul>
+  <li>15:30 - 16:00 Coffee Break</li>
 </ul>
+
+   <div class="page-header">
+      <h1>Keynote Speaker</h1>
+    </div>
+<h2>Dr. Hiroshi Nakashima</h2>
+  <h3><i>Finding Regularity in Problems with Irregularity</i></h3>
+
+  <p><b>Abstract</b></p>
+  <p>
+Vectorized computation especially on scalar processors with wide SIMD
+mechanism requires regularity.  For example, though such a processor
+has gather/scatter capability for irregular memory accesses, they are
+much less efficient than ordinary consecutive accesses mainly due to,
+in speaker's opinion, the line-oriented configuration of caches.
+Unfortunately, real HPC programs often have such irregular accesses to
+a vector multiplied to a sparse matrix in CRS format, to a linear list
+to represent a set of objects, and so on, and thus fail to exploit
+SIMD-vector mechanism efficiently.  However, HPC problems (not
+programs) with sparse matrices, dynamically configured sets, etc. may
+have some degree of regularity because such objects can be represented
+in some form with regularity.  In this talk, a few examples in which
+regularity is found and exploited are presented to discuss the
+importance of programming effort and of the way to reduce the amount
+of efforts made by programmers.
+</p>
+
+  <p><b>Biography:</b></p>
+<p>Dr. Hiroshi Nakashima is working in Academic Center for Computing and
+Media Studies, Kyoto University as a professor who is responsible for
+the design and operation of supercomputers in the Center and for
+collaborative HPC researches with the supercomputers.  Prior to join
+in the Center, he had been a professor of Toyohashi University of
+Technology, an associate professor of Kyoto University, and a
+researcher in Mitsubishi Electric Corporation.  He received his B.E.,
+M.E. and PhD from Kyoto University in 1979, 1981 and 1991,
+  respectively.</p>
+
 
     <div class="page-header">
       <h1>Call for Papers / Topics</h1>
@@ -170,11 +218,6 @@ Submission</a><o:p></o:p></span></p>
 
     <p>The REV-A workshop proceedings will be published along with the IEEE Cluster Digital Library. Submitted manuscripts should follow the IEEE Xplore format for publication: not exceed 10 single-spaced double-column pages using 10-point size font on 8.5x11 inch pages, including figures, tables, and references. Manuscripts must be submitted electronically in PDF format. Submissions will be judged on correctness, originality, technical strength, significance, quality of presentation, and interest and relevance to the workshop attendees. Submitted papers may not have appeared in or be under consideration for another workshop, conference, or journal. Accepted papers will have a page limit of 8 pages, and authors can purchase an additional 2 pages, for a total of 10 pages maximum.</p>
 
-<p><b>Please submit
-your paper via the <span class=SpellE>EasyChair</span> submission system: <a
-href="https://easychair.org/conferences/?conf=reva2017">REV-A
-Submission</a><o:p></o:p></span></b></p>
-
     <div href="#dates" class="page-header">
       <h1>Important Dates</h1>
     </div>
@@ -197,9 +240,6 @@ Submission</a><o:p></o:p></span></b></p>
 <td>&nbsp September 05, 2017</td>
 </tr>
 </table>
-
-
-
 
     <div class="page-header">
       <h1>Organizing Committee</h1>
