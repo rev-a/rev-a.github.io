@@ -60,10 +60,10 @@ span.company { position: absolute; left: 15em }
 
       <h2>Re-Emergence of Vector Architectures</h2>
 
-<p>To be held in conjunction with the <a href="https://cluster18.github.io/"> IEEE Cluster 2018 </a><o:p></o:p></span></p>
-
+<p>To be held in conjunction with the <a href="https://cluster17.github.io/"> IEEE Cluster 2017 </a><o:p></o:p></span></p>
 <p><a 
-href="2017.html">2017 Workshop Page </a><o:p></o:p></span></p>
+href="https://easychair.org/conferences/?conf=reva2017">REV-A
+Submission</a><o:p></o:p></span></p>
 
     </div>
 
@@ -96,10 +96,89 @@ href="2017.html">2017 Workshop Page </a><o:p></o:p></span></p>
     on emerging languages and runtimes.</p>
 
     <div class="page-header">
+      <h1>Program</h1>
+    </div>
+<h2>Location: Waianae Room - <a href="http://www.sheraton-waikiki.com/">Sheraton Waikiki</a></h2>
+<ul>
+   <li>09:00 - 09:30 Welcome Session & Introductions
+   <li>09:30 - 10:30 Keynote: <i>Finding Regularity in Problems with Irregularity (Hioshi Nakashima)</i> [<a href="presentations/reva-2017-nakashima.pdf">slides</a>]
+   <li>10:30 - 11:00 Coffee Break
+   <li>11:00 - 12:30 Session I (3 Papers)</li>
+   <ul>
+     <li>
+        <i>Accelerating Smith-Waterman Alignment workload with Scalable Vector Computing</i>,
+        Dong-Hyeon Park, Jonathan Beaumont and Trevor Mudge [<a href="presentations/REVA_2017-park.pdf">slides</a>]
+     </li>
+     <li>
+       <i>Halide Vectorization for Android Photography Applications – a Case Study</i>,
+       Martin Johnson and Daniel Playne [<a href="presentations/RevAtalk-johnson.pdf">slides</a>]
+     </li>
+     <li>
+       <i>Preliminary Performance Evaluation of Application Kernel using ARM SVE with Multiple Vector Lengths</i>,
+       Yuetsu Kodama [<a href="presentations/reva17-kodama-slides.pdf">slides</a>]
+     </li>
+  </ul>
+  <li>12:30 - 14:00 Lunch Break</li>
+  <li>14:00 - 15:30 Session II (3 Papers)</li>
+  <ul>
+    <li>
+      <i>Vectorization-aware Loop Optimization with User-defined Code Transformations</i>,
+      Hiroyuki Takizawa, Thorsten Reimann, Kazuhiko Komatsu, Takashi Soga, Ryusuke Egawa, Akihiro Musa and Hiroaki Kobayashi [<a href="presentations/htakizawa_reva2017.pdf">slides</a>]
+    </li>
+    <li>
+      <i>Performance and Power Analysis of SX-ACE using HP-X Benchmark Programs</i>,
+      Ryusuke Egawa, Kazuhiko Komatsu, Yoko Isobe, Toshihiro Kato, Souya Fujimoto, Hiroyuki Takizawa, Akihiro Musa and Hiroaki Kobayashi
+    </li>
+    <li>
+      <i>Performance Evaluation of Quantum ESPRESSO on NEC SX-ACE</i>,
+      Osamu Watanabe, Akihiro Musa, Hiroaki Hokari, Shivanshu Singh, Raghunandan Mathur and Hiroaki Kobayashi [<a href="presentations/REV-A_Osamu_Watanabe_QE.pdf">slides</a>]
+    </li>
+  </ul>
+  <li>15:30 - 16:00 Coffee Break</li>
+</ul>
+
+   <div class="page-header">
+      <h1>Keynote Speaker</h1>
+    </div>
+<h2>Dr. Hiroshi Nakashima</h2>
+  <h3><i>Finding Regularity in Problems with Irregularity</i></h3>
+
+  <p><b>Abstract</b></p>
+  <p>
+Vectorized computation especially on scalar processors with wide SIMD
+mechanism requires regularity.  For example, though such a processor
+has gather/scatter capability for irregular memory accesses, they are
+much less efficient than ordinary consecutive accesses mainly due to,
+in speaker's opinion, the line-oriented configuration of caches.
+Unfortunately, real HPC programs often have such irregular accesses to
+a vector multiplied to a sparse matrix in CRS format, to a linear list
+to represent a set of objects, and so on, and thus fail to exploit
+SIMD-vector mechanism efficiently.  However, HPC problems (not
+programs) with sparse matrices, dynamically configured sets, etc. may
+have some degree of regularity because such objects can be represented
+in some form with regularity.  In this talk, a few examples in which
+regularity is found and exploited are presented to discuss the
+importance of programming effort and of the way to reduce the amount
+of efforts made by programmers.
+</p>
+
+  <p><b>Biography:</b></p>
+<p>Dr. Hiroshi Nakashima is working in Academic Center for Computing and
+Media Studies, Kyoto University as a professor who is responsible for
+the design and operation of supercomputers in the Center and for
+collaborative HPC researches with the supercomputers.  Prior to join
+in the Center, he had been a professor of Toyohashi University of
+Technology, an associate professor of Kyoto University, and a
+researcher in Mitsubishi Electric Corporation.  He received his B.E.,
+M.E. and PhD from Kyoto University in 1979, 1981 and 1991,
+  respectively.</p>
+
+
+    <div class="page-header">
       <h1>Call for Papers / Topics</h1>
     </div>
 
-<p>The REV-A 2018 workshop will be a full-day meeting to be held at the IEEE Cluster 2018, in Honolulu, Hawaii, focusing on all aspects of vector architectures, programming models, programming frameworks, and applications.   Topics of interest, of both theoretical and practical significance, include but are not limited to the following topics:</p> 
+<p>The REV-A 2017 workshop will be a full-day meeting to be held at the IEEE Cluster 2017, in Honolulu, Hawaii, focusing on all aspects of vector architectures, programming models, programming frameworks, and applications.   Topics of interest, of both theoretical and practical significance, include but are not limited to the following topics:</p> 
 
     <ul>
       <li>Programming framework</li>
@@ -148,17 +227,17 @@ href="2017.html">2017 Workshop Page </a><o:p></o:p></span></p>
 <table>
 <tr>
 <td>&nbsp&nbsp&nbsp&nbsp&nbsp Full Papers due: </td>
-<td>&nbsp June 25, 2018</td></tr>
+<td>&nbsp June 25, 2017</td></tr>
 <tr>
 <td>&nbsp&nbsp&nbsp&nbsp&nbsp Paper Acceptance Notification: </td>
-<td>&nbsp July 17, 2018</td>
+<td>&nbsp July 17, 2017</td>
 </tr>
 <tr>
 <td>&nbsp&nbsp&nbsp&nbsp&nbsp Camera-ready deadline: </td>
-<td>&nbsp TBD</td></tr>
+<td>&nbsp July 30, 2017</td></tr>
 <tr>
 <td>&nbsp&nbsp&nbsp&nbsp&nbsp REV-A Workshop: </td>
-<td>&nbsp September 10, 2018</td>
+<td>&nbsp September 05, 2017</td>
 </tr>
 </table>
 
@@ -173,6 +252,85 @@ href="2017.html">2017 Workshop Page </a><o:p></o:p></span></p>
 <tr>
 <td>&nbsp&nbsp&nbsp&nbsp&nbsp Eric Van Hensbergen&nbsp&nbsp&nbsp&nbsp </td>
 <td>&nbsp ARM Research</td>
+</tr>
+</table>
+
+    <div class="page-header">
+      <h1>Program Committee</h1>
+    </div>
+
+<table>
+<tr>
+<td>&nbsp&nbsp&nbsp&nbsp&nbsp David Abramson </td>
+<td>&nbsp University of Queensland </td>
+</tr>
+<tr>
+<td>&nbsp&nbsp&nbsp&nbsp&nbsp Bronis R. de Supinski </td>
+<td>&nbsp Lawrence Livermore National Laboratory </td>
+</tr>
+<tr>
+<td>&nbsp&nbsp&nbsp&nbsp&nbsp Mootaz Elnozahy </td> 
+<td>&nbsp KAUST </td>
+</tr>
+<tr>
+<td>&nbsp&nbsp&nbsp&nbsp&nbsp Roger Espasa </td>
+<td>&nbsp SemiDynamics </td>
+</tr>
+<tr>
+<td>&nbsp&nbsp&nbsp&nbsp&nbsp Michael Garland </td> 
+<td>&nbsp NVIDIA </td>
+</tr>
+<tr>
+<td>&nbsp&nbsp&nbsp&nbsp&nbsp Ian Karlin </td> 
+<td>&nbsp Lawrence Livermore National Laboratory  </td>
+</tr>
+<tr>
+<td>&nbsp&nbsp&nbsp&nbsp&nbsp David Lilja </td>
+<td>&nbsp University of Minnesota </td>
+</tr>
+<tr>
+<td>&nbsp&nbsp&nbsp&nbsp&nbsp Sally McKee </td>
+<td>&nbsp Chalmers University of Technology </td>
+</tr>
+<tr>
+<td>&nbsp&nbsp&nbsp&nbsp&nbsp Sanyam Mehta </td>
+<td>&nbsp Cray Inc. </td>
+</tr>
+<tr>
+<td>&nbsp&nbsp&nbsp&nbsp&nbsp Hiroshi Nakashima </td> 
+<td>&nbsp Kyoto University </td>
+</tr>
+<tr>
+<td>&nbsp&nbsp&nbsp&nbsp&nbsp Lawrence Rauchwerger </td> 
+<td>&nbsp Texas A&M University </td>
+</tr>
+<tr>
+<td>&nbsp&nbsp&nbsp&nbsp&nbsp Mitsuhisa Sato </td>
+<td>&nbsp Riken </td>
+</tr>
+<tr>
+<td>&nbsp&nbsp&nbsp&nbsp&nbsp Sunil Shrestha </td> 
+<td>&nbsp Cray Inc. </td>
+</tr>
+<tr>
+<td>&nbsp&nbsp&nbsp&nbsp&nbsp Xinmin Tian </td>
+<td>&nbsp Intel </td>
+</tr>
+<tr>
+<td>&nbsp&nbsp&nbsp&nbsp&nbsp Mateo Valero </td>
+<td>&nbsp Barcelona Supercomputing Center / UPC </td>
+</tr>
+<tr>
+<td>&nbsp&nbsp&nbsp&nbsp&nbsp Jeffrey Vetter </td> 
+<td>&nbsp Oak Ridge National Laboratory </td>
+</tr>
+<tr>
+<td>&nbsp&nbsp&nbsp&nbsp&nbsp Felix Wolf </td>
+<td>&nbsp TU Darmstadt </td>
+</tr>
+<tr>
+<td>&nbsp&nbsp&nbsp&nbsp&nbsp Pen-Chung Yew </td> 
+<td>&nbsp University of Minnesota </td>
 </tr>
 </table>
 
